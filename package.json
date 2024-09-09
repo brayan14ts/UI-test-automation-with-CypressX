@@ -1,0 +1,19 @@
+{
+  "name": "cypress-etestops",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open --browser chrome --e2e",
+    "headless":"cypress run",
+    "headless:firefox:saucedemo:purchases": "cypress open --browser firefox --spec cypress/e2e/Saucedemo/2-Products*"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^10.11.0",
+    "prettier": "^2.7.1"
+  }
+}
